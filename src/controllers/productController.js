@@ -3,15 +3,17 @@ const productController = {
         res.render('products/cart');
     },
 
-    productDetail : (req,res)=>{
+    detail : (req,res)=>{
         res.render('products/productDetail');
     },
 
-    agregarProducto : (req,res)=>{
+    create : (req,res)=>{
         res.render('products/agregarProducto');
     },
+
     
-    editarProducto : (req,res)=>{
+    
+    edit : (req,res)=>{
         res.render('products/editarProducto');
     }
 }

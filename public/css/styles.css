@@ -374,6 +374,10 @@ main section.Productos-relacionados article{
 main section.Productos-relacionados article:hover img{
     opacity: 0.5;
 }
+main img{
+    height: 350px;
+    width: 240px;
+}
 main section.Productos-relacionados article:after{
     position: absolute;
     bottom:0;

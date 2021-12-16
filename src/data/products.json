@@ -1,0 +1,65 @@
+[
+    {
+        "id":1,
+        "nombre":"Jujutsu kaisen 01",
+        "categoria":"Shonen",
+        "precio":575.00,
+        "descripcion":"Yuji Itadori es un joven con habilidades físicas excepcionales que se une al club de ocultismo de la escuela porque le permite salir temprano y visitar a su abuelo en el hospital. Este, antes de morir, le pide que use su fuerza para ayudar a las personas. Ahí se aparece un estudiante de hechicero, Fushiguro, y le pide a Yuji el objeto maldito que encontró. Él le dice que sus compañeros del club van a abrirlo en la escuela, y ambos corren a rescatarlos. Al llegar, están rodeados de maldiciones (monstruos), y para salvar a sus compañeros, Yuji se traga el objeto maldito y se convierte en Sukuna.",
+        "estado":"En Emision",
+        "img":"jujutsu_kaisen.jpg"
+    },
+    {
+        "id":2,
+        "nombre":"Gintama 13 (Comic)",
+        "categoria":"Shonen",
+        "precio":300.00,
+        "descripcion":"Los chicos para todo tienen que ayudar a una madre que ha llegado a Edo para buscar a su hijo Hachirô, del que no tiene noticias desde que decidió irse a la ciudad. Pero resulta que Hachirô tiene problemas con unos yakuza... También veremos un documental sobre el día a día de Katsura, un concurso de comer dulces dango y... ¿¡Le sale un prometido a Otae!?",
+        "estado":"Finalizado",
+        "img":"gintama.jpg"
+    },
+    {
+        "id":3,
+        "nombre":"Spy X Family 01",
+        "categoria":"Shonen",
+        "precio":550,
+        "descripcion":"El espía profesional conocido como <Twilight> ha realizado misiones en cubierto durante muchos años, con la finalidad de conseguir un mundo mejor. Pero un día, él recibe un particular y difícil encargo por parte de sus superiores. Para esta misión, ¡¿tiene que formar una familia temporal y comenzar una nueva vida?! Una comedia de acción y espías sobre una familia como ninguna otra.",
+        "estado":"Finalizado",
+        "img":"spy_family.jpg"
+    },
+    {
+        "id":4,
+        "nombre":"Naruto 03",
+        "categoria":"Shonen",
+        "precio":575.00,
+        "descripcion":"Zabuza, el demonio que fué derrotado por el Sharingan de Kakashi, todavía sigue con vida. Naruto y los demás, lograron llevar a salvo a Tazuna hasta el país de la ola, pero ahora todos están sumidos en una profunda ansiedad. Pero no hay tiempo para desesperarse. Bajo la tutela de kakashi, Naruto, Sakura y Sasuke empiezan un entrenamiento especial de emergencia.",
+        "estado":"Finalizado",
+        "img":"Naruto03.jpg"
+    },
+    {
+        "id":5,
+        "nombre":"Fire Force 10",
+        "categoria":"Shonen",
+        "precio":575.00,
+        "descripcion":"fhefekfhewfhekfefkhwefhewkfe¡El poder de Sho es asombroso! ¡¿Podrán rescatarlo de la oscuridad subterránea?! Finalmente, Shinra llega con Sho, pero este no quiere escuchar lo que su hermano mayor le tiene que decir y ¡se desata una batalla! Aunque Licht lo apoya en un contraataque, Shinra no puede hacer nada para pelear o siquiera mitigar la terrible habilidad de Sho. ¡¿Podrá revelar los secretos de su misteriosa habilidad?! ¡La clave está en el Adolla Burst! ¡¿Cuál será el siguiente nivel de la llama de un Shinra moribundo?!",
+        "estado":"Finalizado",
+        "img":"fireforce.jpg"
+    },
+    {
+        "id":6,
+        "nombre":"Soul Eater 01",
+        "categoria":"Shonen",
+        "precio":700.00,
+        "descripcion":"Ambientada en el Shibusen, la serie gira en torno a tres equipos formados por un técnico de arma y por lo menos un arma humana para ser usada por un shinigami, ellos deben recolectar las almas de 99 criminales o asesinos en la lista de shinigami y el alma de una bruja, en ese orden, si fallan con algún alma, su contador se verá reiniciado, mientras que ahí da inicio a las desventuras de nuestros personajes.",
+        "estado":"Finalizado",
+        "img":"Soul_Eater.jpg"
+    },
+    {
+        "id":7,
+        "nombre":"The Ring 01 (Comic)",
+        "categoria":"Terror",
+        "precio":1200.00,
+        "descripcion":"Basada en las mega vendedoras novelas de terror de Koji Suzuki, la saga The Ring ha sido adaptada al cine -en dos versiones, la japonesa y la norteamericana- y al manga, en seis tomos: The Ring parte 1, The Ring parte 2, Ring 2, Rasen/Spiral, Ring Birthday y Ring 0.",
+        "estado":"Finalizado",
+        "img":"ring.jpg"
+    }
+]

@@ -1,104 +1,49 @@
 <!DOCTYPE html>
 <html lang="es">
 <%- include('../partials/head') %>
-<body>
-    <!--ENCABEZADO-->
-    <%- include('../partials/header') %>
+    <body>
+        <!--ENCABEZADO-->
+        <%- include('../partials/header') %>
 
-    <!--SLIDER-->
-    <div class="slider">
-        <ul>
-            <li>
-                <img src="images/banner1.jpg">
-            </li>
-            <li>
-                <img src="images/banner2.jpg">
-            </li>
-            <li>
-                <img src="images/banner3.jpg">
-            </li>
-            <li>
-                <img src="images/banner4.jpg">
-            </li>
-        </ul>
-    </div>
+        <!--SLIDER-->
+        <div class="slider">
+            <ul>
+                <li>
+                    <img src="images/banner1.jpg">
+                </li>
+                <li>
+                    <img src="images/banner2.jpg">
+                </li>
+                <li>
+                    <img src="images/banner3.jpg">
+                </li>
+                <li>
+                    <img src="images/banner4.jpg">
+                </li>
+            </ul>
+        </div>
 
-    <!--SECCION DE PRODUCTOS-->
-    <main>
-        
-        <h2>NOVEDADES</h2>
-        <section class="Productos-relacionados">
-        <!-- Foreach que ayuda a evitar crear varios articulos de forma estatica -->
-        <% mangas.forEach(element => { %>
-            <article>
-                <a href="/products/productDetail"><img src="<%= element.img %> " alt="portadas"></a>
-                <div class="main-product">
-                    <h3><%= element.nombre %> <i class="fas fa-book"></i></h3>
-                    <p>$<%= element.precio %> </p>
-                    <form action="/views/home.html" method="POST">
-                        <input type="submit" class="btn3" value="Agregar al carrito">
-                        </form>
-                </div>
-            </article>
+        <!--SECCION DE PRODUCTOS-->
+        <main>
             
-        <% }) %>
+            <h2>NOVEDADES</h2>
+            <section class="Productos-relacionados">
 
-    </section>
+            <%- include('../partials/finalizados') %>
 
-    <h2>OFERTAS</h2>
-    <section class="Productos-relacionados">
-        <article>
-            <a href="/product"><img src="images/products/producto10.jpg" alt="spyxfamily02"></a>
-            <div class="main-product">
+            </section>
+
+            <h2>OFERTAS</h2>
+            <section class="Productos-relacionados">
                 
-                <h3>Zelda<i class="fas fa-book"></i></h3>
-                <p>$550</p>
-                <form action="/views/home.html" method="POST">
-                <input type="submit" class="btn3" value="Agregar al carrito">
-                </form>
-            </div>
-        </article>
+                <%-include('../partials/enEmision') %> 
 
-        <article>
-            <a href="/product"><img src="images/products/producto13.jpg" alt="spyxfamily02"></a>
-            <div class="main-product">
-                <h3>Dragon Ball Super<i class="fas fa-book"></i></h3>
-                <p>$550</p>
-                <form action="/views/home.html" method="POST">
-                <input type="submit" class="btn3" value="Agregar al carrito">
-                </form>
-            </div>
-        </article>
+            </section>     
+            
+        </main>
 
-        <article>
-            a href="/product"><img src="images/products/producto15.jpg" alt="spyxfamily02"></a>
-            <div class="main-product">
-                
-                <h3>One piece <i class="fas fa-book"> </i></h3>
-                <p>$550</p>
-                <form action="/views/home.html" method="POST">
-                <input type="submit" class="btn3" value="Agregar al carrito">
-                </form>
-            </div>
-        </article>
-
-        <article>
-            <a href="/product"><img src="images/products/spyxfamily01.jpg" alt="spyxfamily02"></a>
-            <div class="main-product">
-                
-                <h3>Spy x Family 07 <i class="fas fa-book"></i></h3>
-                <p>$550</p>
-                <form action="/views/home.html" method="POST">
-                <input type="submit" class="btn3" value="Agregar al carrito">
-                </form>
-            </div>
-        </article>
-    </section>
-
-</main>
-
-
-    <!--PIE DE PAGINA-->
-    <%- include('../partials/footer') %>
-</body>
+        <!--PIE DE PAGINA-->
+        <%- include('../partials/footer') %>
+        
+    </body>
 </html>

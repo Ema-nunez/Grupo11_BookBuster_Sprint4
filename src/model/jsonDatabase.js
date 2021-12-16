@@ -29,8 +29,7 @@ const modelController = function (name) {
         },
         // Leo todos los registros del archivo
         all: function () {
-            console.log('Estoy buscando los productos ahora')
-            console.log(this.readFile())
+            
             return this.readFile();
         },
         // Busco por id
@@ -104,15 +103,16 @@ const modelController = function (name) {
 
         },
 
-        findFirstByField: function(field, text){
+        findFirstByField: function(text){
             let rows = this.all();
-            let elementFound = rows.find(element => element[field] === text);
+    
+            let elementFound = rows.find(element => element.estado == text);
             return elementFound;
         },
 
-        findAllByField: function(field, text){
+        findAllByField: function(text){
             let rows = this.all();
-            let allElementsFound = rows.filter(element => element[field] === text);
+            let allElementsFound = rows.filter(element => element.estado == text);
             return allElementsFound;
         }
 

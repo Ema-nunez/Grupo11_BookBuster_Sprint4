@@ -4,34 +4,34 @@
     <body class="body-login">
     <%- include('../partials/header') %>
 
-    <div class="historial-menu">
+    <!-- <div class="historial-menu">
         <ul class="breadcrumb">
             <li><a href="index.html"></a>Home</li>
             <li><a href="#"></a>Manga</li>
             <li><a href="#"></a>Spy x Family serie</li>
             <li id="principal"><a href="productDetail.html"></a>Spy x Family 01</li>
         </ul>
-    </div>
-    
+    </div> -->
+    <br><br>
     <section class="detallesDelProd">
         <div class="spyFma">
-            <img src="/images/spyxfamily01.jpg" alt="Spy x Family N°1">
+            <img src="/images/products/<%= productDetail.img %> " alt="Spy x Family N°1">
             
         </div>
     
         <div class="detalle-prod">
             <div class="titulo">
-                <h1>Spy x Family 01</h1>
+                <h1><%= productDetail.nombre %> </h1>
                 <p>Tatsuya Endō</p>
-                <p>$550</p>
+                <p>$<%= productDetail.precio %> </p>
             </div>
         
         
         <div class="estado">
-            <h4 data-text="Estado: En curso...">Estado: En curso...</h4>
+            <h4 data-text="Estado: <%= productDetail.estado %> ...">Estado: <%= productDetail.estado %> ...</h4>
             <ul>
             <p>Genero:</p>
-            <li>Shonen</li>
+            <li><%= productDetail.categoria %> </li>
             </ul>
         </div>
 
@@ -66,14 +66,7 @@
     </section>
 
         <article>
-        <p>Los países de Westalis y Ostania libran desde hace años una guerra 
-        fría donde el espionaje y los asesinatos son moneda corriente. 
-        El inigualable espía conocido como “Twilight” es el mejor agente de Westalis 
-        que tiene por objetivo encargarse del poderoso Donovan Desmond. Lo jodido del asunto es
-        que Desmond es un ermitaño antisocial cuyas únicas apariciones públicas son en los actos 
-        escolares de su hijo. Twilight deberá acercarse al objetivo lo suficiente como para desbaratar su 
-        agenda secreta. Para eso, sólo deberá simular que es un hombre de familia… con el pequeño detalle 
-        de que sólo tiene 7 días para formar la familia ideal.</p>
+        <p><%= productDetail.descripcion %> </p>
         </article>
         <span class="descrip-oculto">Es por eso que bajo la identidad del psiquiatra Loid Forger, Twilight reclutará a Yor Briar, una civil ostaniana que quiere tener bajo perfil y Anya, una huerfanita que sólo busca una familia cariñosa, para hacer las partes de esposa e hija respectivamente. Pero resulta que este par tampoco es nada normal, especialmente si tenemos en cuenta que Yor es una asesina profesional buscada por ambos bandos y Anya es una prófuga de un laboratorio secreto donde consiguió poderes telepáticos.
             Es así como los tres sapos de otro pozo deberán cumplir con sus respectivos objetivos, por obligación o por deseo, mientras intentan llevar una vida cotidiana lo más normal que les permita sus situaciones.
@@ -96,7 +89,7 @@
         <section class="Productos-relacionados">
             
             <article>
-                <img src="/images/spyxfamily02.jpg" alt="spyxfamily02">
+                <img src="/images/products/spyxfamily02.jpg" alt="spyxfamily02">
                 <div class="main-product">
                     
                     <h3>Spy x Family 02 <i class="fas fa-book"></i></h3>
@@ -108,7 +101,7 @@
             </article>
 
             <article>
-                <img src="/images/spyxfamily03.jpg" alt="spyxfamily02">
+                <img src="/images/products/spyxfamily03.jpg" alt="spyxfamily02">
                 <div class="main-product">
                     <h3>Spy x Family 03 <i class="fas fa-book"></i></h3>
                     <p>$550</p>
@@ -119,7 +112,7 @@
             </article>
 
             <article>
-                <img src="/images/spyxfamily06.jpg" alt="spyxfamily02">
+                <img src="/images/products/spyxfamily06.jpg" alt="spyxfamily02">
                 <div class="main-product">
                     
                     <h3>Spy x Family 06 <i class="fas fa-book"> </i></h3>
@@ -131,7 +124,7 @@
             </article>
 
             <article>
-                <img src="/images/spyxfamily07.jpg" alt="spyxfamily02">
+                <img src="/images/products/spyxfamily07.jpg" alt="spyxfamily02">
                 <div class="main-product">
                     
                     <h3>Spy x Family 07 <i class="fas fa-book"></i></h3>

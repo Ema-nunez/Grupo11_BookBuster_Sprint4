@@ -1,4 +1,3 @@
-
 const jsonDB = require('../model/jsonDatabase');
 const productModel = jsonDB('products')
 const mainController = {

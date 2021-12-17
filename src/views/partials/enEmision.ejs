@@ -1,6 +1,6 @@
 <% enEmision.forEach(element => { %>
     <article>
-        <a href="/products/productDetail"><img src="images/products/<%= element.img %> " alt="portadas"></a>
+        <a href="/products/productDetail/<%= element.id %> "><img src="images/products/<%= element.img %> " alt="portadas"></a>
         <div class="main-product">
             <h3><%= element.nombre %> <i class="fas fa-book"></i></h3>
             <p>$<%= element.precio %> </p>

@@ -61,5 +61,23 @@
         "descripcion":"Basada en las mega vendedoras novelas de terror de Koji Suzuki, la saga The Ring ha sido adaptada al cine -en dos versiones, la japonesa y la norteamericana- y al manga, en seis tomos: The Ring parte 1, The Ring parte 2, Ring 2, Rasen/Spiral, Ring Birthday y Ring 0.",
         "estado":"Finalizado",
         "img":"ring.jpg"
+    },
+    {
+        "id":8,
+        "nombre":"Metal Gear Solid",
+        "categoria":"Ciencia Ficcion",
+        "precio":600.00,
+        "descripcion":"Basada en las mega vendedoras novelas de terror de Koji Suzuki, la saga The Ring ha sido adaptada al cine -en dos versiones, la japonesa y la norteamericana- y al manga, en seis tomos: The Ring parte 1, The Ring parte 2, Ring 2, Rasen/Spiral, Ring Birthday y Ring 0.",
+        "estado":"Finalizado",
+        "img":"productoOferta1.jpg"
+    },
+    {
+        "id":9,
+        "nombre":"Justice League",
+        "categoria":"Ficcion",
+        "precio":400.00,
+        "descripcion":"Basada en las mega vendedoras novelas de terror de Koji Suzuki, la saga The Ring ha sido adaptada al cine -en dos versiones, la japonesa y la norteamericana- y al manga, en seis tomos: The Ring parte 1, The Ring parte 2, Ring 2, Rasen/Spiral, Ring Birthday y Ring 0.",
+        "estado":"Finalizado",
+        "img":"productoOferta4.jpg"
     }
 ]

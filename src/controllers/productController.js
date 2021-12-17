@@ -1,10 +1,16 @@
+const modelController = require('../model/jsonDatabase');
+const jsonDB = require('../model/jsonDatabase');
+const productModel = jsonDB('products')
+
 const productController = {
     cart : (req,res)=>{
         res.render('products/cart');
     },
 
     detail : (req,res)=>{
-        res.render('products/productDetail');
+        const productDetail = productModel.find(req.params.id)
+    
+        res.render('products/productDetail', {productDetail});
     },
 
     create : (req,res)=>{

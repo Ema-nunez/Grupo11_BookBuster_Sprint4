@@ -16,13 +16,11 @@
     <section class="detallesDelProd">
         <div class="spyFma">
             <img src="/images/products/<%= productDetail.img %> " alt="Spy x Family N°1">
-            
         </div>
-    
         <div class="detalle-prod">
             <div class="titulo">
                 <h1><%= productDetail.nombre %> </h1>
-                <p>Tatsuya Endō</p>
+                <p><%= productDetail.autor  %> </p>
                 <p>$<%= productDetail.precio %> </p>
             </div>
         
@@ -39,6 +37,15 @@
             <input type="submit" class="btn2" value="Agregar carrito">
             <i class="fas fa-shopping-cart"></i>
         </div>
+        <div class="boton-delate">
+            <a href="/products/edit/<%= productDetail.id %> " class="action-button-edit">EDITAR PRODUCTO</a>
+                    <form action="/products/delete/<%= productDetail.id %>" method="POST" style="display: inline-flex">
+                        <button type="submit" class="action-button-delete">ELIMINAR</button>
+                    </form>
+            </div>
+
+        
+
 
         <h3>ENVÍO GRATIS:</h3>
 

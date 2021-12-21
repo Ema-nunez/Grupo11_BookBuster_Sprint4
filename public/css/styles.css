@@ -252,6 +252,30 @@ div.agregarCarrito i{
 div.agregarCarrito input:hover{
     background-color: #2980b9; 
 }
+div.boton-delate{
+    text-align: center;
+    margin: 20px 0;
+    
+}
+a.action-button-edit{
+    background-color: #00acee;
+    text-decoration: none;
+    color: white;
+    font-size: 1.5em;
+    border-radius: 5px;
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+button.action-button-delete{
+    display: inline-block;
+    font-size: 1.5em;
+    background-color: red;
+    color:white;
+    border-radius: 5px;
+    padding: 0 10px;
+    border: solid red 1px;
+}
+
 section.detallesDelProd h3{
     font-size: 1.5em;
     color:#170312;

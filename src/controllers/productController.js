@@ -21,6 +21,10 @@ const productController = {
     
     edit : (req,res)=>{
         res.render('products/editarProducto');
+    },
+    eliminar: function(req,res){
+        productModel.delate(res.params.id);
+        res.redirect("/");
     }
 }
 

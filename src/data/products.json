@@ -1,6 +1,7 @@
 [
     {
         "id":1,
+        "autor":"Gege Akutami",
         "nombre":"Jujutsu kaisen 01",
         "categoria":"Shonen",
         "precio":575.00,
@@ -10,6 +11,7 @@
     },
     {
         "id":2,
+        "autor":"Hideaki Sorachi",
         "nombre":"Gintama 13 (Comic)",
         "categoria":"Shonen",
         "precio":300.00,
@@ -19,6 +21,7 @@
     },
     {
         "id":3,
+        "autor":"Tatsuya Endō",
         "nombre":"Spy X Family 01",
         "categoria":"Shonen",
         "precio":550,
@@ -28,6 +31,7 @@
     },
     {
         "id":4,
+        "autor": "Masashi Kishimoto",
         "nombre":"Naruto 03",
         "categoria":"Shonen",
         "precio":575.00,
@@ -37,6 +41,7 @@
     },
     {
         "id":5,
+        "autor":"Atsushi Ōkubo",
         "nombre":"Fire Force 10",
         "categoria":"Shonen",
         "precio":575.00,
@@ -46,6 +51,7 @@
     },
     {
         "id":6,
+        "autor":"Atsushi Ōkubo",
         "nombre":"Soul Eater 01",
         "categoria":"Shonen",
         "precio":700.00,
@@ -55,6 +61,7 @@
     },
     {
         "id":7,
+        "autor": "nombre",
         "nombre":"The Ring 01 (Comic)",
         "categoria":"Terror",
         "precio":1200.00,
@@ -64,6 +71,7 @@
     },
     {
         "id":8,
+        "autor":"Hideo kOJIMA",
         "nombre":"Metal Gear Solid",
         "categoria":"Ciencia Ficcion",
         "precio":600.00,
@@ -73,6 +81,7 @@
     },
     {
         "id":9,
+        "autor": "Alan More",
         "nombre":"Justice League",
         "categoria":"Ficcion",
         "precio":400.00,

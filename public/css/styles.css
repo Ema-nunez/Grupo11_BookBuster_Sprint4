@@ -997,25 +997,34 @@ input[type="number"]::-webkit-outer-spin-button {
         margin: auto;
     }
     .formAdd p{
-        margin: 20px 0px;
+        margin: 10px 0px;
     }
     .formAdd input[type="text"], .formAdd input[type="number"]{
-        padding: 15px;
+        padding: 10px;
         border: none;
         width: 100%;
         outline: none;
         border-radius: 5px;
-        font-weight: 600;
+       
+    }
+
+    .formAdd input[type="file"]{
+        padding: 10px;
     }
     .formAdd select{
         width: 100%;
         padding: 15px;
-        border: 2px solid #674baf;
+        border: 1px solid #674baf;
+        border-radius: 5px;
     }
     .formAdd textarea{
         width: 100%;
         outline: none;
         border: none;
+        border-radius: 5px;
+    }
+    .formAdd textarea:hover{
+        border: 1px solid #674baf;
     }
 
     .formAdd .contenedor_botones {
@@ -1027,7 +1036,7 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
     .formAdd .boton {
-        display: inline-flex;
+        
         align-items: center;
         justify-content: center;
         width: 100%;
@@ -1037,6 +1046,7 @@ input[type="number"]::-webkit-outer-spin-button {
         border: none;
         cursor: pointer;
         border-radius: 5px;
+        text-align: center;
     }
 
     .formAdd .boton:hover {
@@ -1050,20 +1060,26 @@ input[type="number"]::-webkit-outer-spin-button {
     }
 
 
-    /* .botones-agregar{
+     .botones-agregar{
         margin: 3%;
         text-align: center;
         
     }
+  
     .botones-agregar input[type="submit"]{
-        padding: 7px;
+        padding: 10px;
         background-color: #2980b9;
         color: white;
         border: none;
         border-radius: 5px;
         font-size: 1em;
+        cursor: pointer;
     }
 
+    .botones-agregar input[type="submit"]:hover{
+        background-color:#349add ;
+    }
+  /*
     .botones-agregar a{
         padding: 7px; */
         /* background-color: rgb(55, 148, 95); */
@@ -1074,9 +1090,7 @@ input[type="number"]::-webkit-outer-spin-button {
         text-decoration: none;
     }
 
-    .botones-agregar input[type="submit"]:hover{
-        background-color:#349add ;
-    }
+    
 
     .botones-agregar a:hover{
         background-color: rgb(53, 189, 112);

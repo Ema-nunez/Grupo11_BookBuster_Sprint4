@@ -12,7 +12,7 @@ router.get('/productDetail/:id', productController.detail);
 router.get('/agregarProducto', productController.create);
 // router.post('/agregarProducto', productController.store);
 
-router.get('/editarProducto/:id', productController.edit)
+router.get('/edit/:id', productController.edit)
 // router.put('/editarProducto/:id', productController.update)
 router.post("deleate/:id", productController.eliminar)
 module.exports = router;

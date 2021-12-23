@@ -4,7 +4,7 @@ const mainController = {
     index : (req,res)=>{
 
         const finalizados = productModel.findAllByField("Finalizado")
-        const enEmision = productModel.findAllByField("En Emision")
+        const enEmision = productModel.findAllByField("En Curso")
         res.render('products/index', {finalizados, enEmision})
     }
 }

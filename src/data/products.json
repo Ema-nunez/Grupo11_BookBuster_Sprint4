@@ -10,24 +10,6 @@
   "img": "jujutsu_kaisen.jpg"
  },
  {
-  "id": 2,
-  "autor": "",
-  "nombre": "wewqeqw",
-  "categoria": "",
-  "precio": "",
-  "descripcion": "",
-  "estado": "En Curso"
- },
- {
-  "id": 3,
-  "autor": "",
-  "nombre": "ddf",
-  "categoria": "",
-  "precio": "",
-  "descripcion": "",
-  "estado": "En Curso"
- },
- {
   "id": 4,
   "autor": "",
   "nombre": "",
@@ -86,47 +68,5 @@
   "descripcion": "Basada en las mega vendedoras novelas de terror de Koji Suzuki, la saga The Ring ha sido adaptada al cine -en dos versiones, la japonesa y la norteamericana- y al manga, en seis tomos: The Ring parte 1, The Ring parte 2, Ring 2, Rasen/Spiral, Ring Birthday y Ring 0.",
   "estado": "Finalizado",
   "img": "productoOferta4.jpg"
- },
- {
-  "autor": "",
-  "nombre": "test",
-  "precio": "",
-  "descripcion": "",
-  "estado": "En Curso",
-  "id": 10
- },
- {
-  "autor": "",
-  "nombre": "test",
-  "precio": "",
-  "descripcion": "",
-  "estado": "En Curso",
-  "id": 11
- },
- {
-  "autor": "",
-  "nombre": "test",
-  "precio": "",
-  "descripcion": "",
-  "estado": "En Curso",
-  "id": 12
- },
- {
-  "autor": "wefwe",
-  "nombre": "ewgwg",
-  "precio": "23",
-  "descripcion": "ewfwef",
-  "estado": "En Curso",
-  "img": "imgProduct_1640250041715hola.png",
-  "id": 13
- },
- {
-  "autor": "wefwe",
-  "nombre": "ewgwg",
-  "precio": "23",
-  "descripcion": "ewfwef",
-  "estado": "En Curso",
-  "img": "imgProduct_1640250053099hola.png",
-  "id": 14
  }
 ]

@@ -38,8 +38,10 @@ const productController = {
         res.render('products/editarProducto',{productaux});
     },
     update:(req,res)=>{
-        let productToUpdate=productModel.find(req.params.id)
-        let newProduct={
+        let productToUpdate = productModel.find(req.params.id)
+        
+        let newProduct = {
+
             id:productToUpdate.id,
             autor:req.body.autor,
             nombre:req.body.nombre,
@@ -50,11 +52,14 @@ const productController = {
             img:productToUpdate.img
 
         }
-        if (newProduct.estado=""){
-            newProduct.estado=productToUpdate.estado
+        if (newProduct.estado == ""){
+            console.log(productToUpdate.estado)
+            newProduct.estado = productToUpdate.estado
         }
-        if (newProduct.categoria=""){
-            newProduct.categoria=productToUpdate.categoria
+
+
+        if (newProduct.categoria == ""){
+            newProduct.categoria = productToUpdate.categoria
         }
         productModel.update(newProduct)
         res.redirect("/");

@@ -263,7 +263,7 @@ a.action-button-edit{
     color: white;
     font-size: 1.5em;
     border-radius: 5px;
-    padding: 0px 10px;
+    padding: 10px;
     margin-right: 10px;
 }
 button.action-button-delete{
@@ -272,8 +272,9 @@ button.action-button-delete{
     background-color: red;
     color:white;
     border-radius: 5px;
-    padding: 0 10px;
+    padding: 10px;
     border: solid red 1px;
+    cursor: pointer;
 }
 
 section.detallesDelProd h3{

@@ -9,10 +9,12 @@ router.get('/cart', productController.cart);
 
 router.get('/productDetail/:id', productController.detail);
 
-router.get('/agregarProducto/:id', productController.create);
-// router.post('/agregarProducto', productController.store);
+router.get('/agregarProducto', productController.create);
+router.post('/agregarProducto', upload.single("portada"), productController.store);
 
 router.get('/edit/:id', productController.edit)
+
 router.put('/edit/:id', productController.update)
+
 router.post("deleate/:id", productController.eliminar)
 module.exports = router;

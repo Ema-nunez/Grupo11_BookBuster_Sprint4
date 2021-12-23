@@ -35,7 +35,7 @@ const productController = {
     
     edit : (req,res)=>{
         let productaux=productModel.find(req.params.id)
-        res.render('editarProducto.ejs',{productaux});
+        res.render('products/editarProducto',{productaux});
     },
     update:(req,res)=>{
         let productToUpdate=productModel.find(req.params.id)
@@ -47,8 +47,11 @@ const productController = {
             precio:req.body.precio,
             descripcion:req.body.descripcion,
             estado:req.body.estado,
-            img:req.body.img
+            img:productToUpdate.img
 
+        }
+        if (newProduct.estado=""){
+            newProduct.estado=productToUpdate.estado
         }
         if (newProduct.categoria=""){
             newProduct.categoria=productToUpdate.categoria

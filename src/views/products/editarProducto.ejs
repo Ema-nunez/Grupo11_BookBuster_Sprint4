@@ -6,8 +6,8 @@
 
     <main class="agregar-container">
 
-        <form action="/edit/:id/ <%=productaux.id %> ?_method=PUT" method="POST" class="formAdd">
-            <h2>Editar Producto  <b>NOMBREDELPRODUCTO</b></h2>
+        <form action="/products/edit/<%=productaux.id %>?_method=PUT" method="POST" class="formAdd">
+            <h2>Editar Producto  <b><%= productaux.nombre %></b></h2>
 
             <p>Titulo del producto</p>
             <input type="text" name="nombre">

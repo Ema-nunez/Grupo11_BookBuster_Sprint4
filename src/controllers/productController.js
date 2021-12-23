@@ -17,10 +17,47 @@ const productController = {
         res.render('products/agregarProducto');
     },
 
-    
+    store:(req,res)=>{
+        const newProduct={
+            autor:req.body.autor,
+            nombre:req.body.nombre,
+            categoria:req.body.categoria,
+            precio:req.body.precio,
+            descripcion:req.body.descripcion,
+            estado:req.body.estado,
+            img:req.body.img
+
+        }
+        productModel.create(newProduct)
+        console.log('cree un nuevo producto')
+        res.redirect('/')
+    },
     
     edit : (req,res)=>{
-        res.render('products/editarProducto');
+        let productaux=productModel.find(req.params.id)
+        res.render('editarProducto.ejs',{productaux});
+    },
+    update:(req,res)=>{
+        let productToUpdate=productModel.find(req.params.id)
+        let newProduct={
+            id:productToUpdate.id,
+            autor:req.body.autor,
+            nombre:req.body.nombre,
+            categoria:req.body.categoria,
+            precio:req.body.precio,
+            descripcion:req.body.descripcion,
+            estado:req.body.estado,
+            img:req.body.img
+
+        }
+        if (newProduct.categoria=""){
+            newProduct.categoria=productToUpdate.categoria
+        }
+        productModel.update(newProduct)
+        res.redirect("/");
+        
+        
+
     },
     eliminar: function(req,res){
         productModel.delate(res.params.id);

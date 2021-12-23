@@ -16,5 +16,5 @@ router.get('/edit/:id', productController.edit)
 
 router.put('/edit/:id', productController.update)
 
-router.post("deleate/:id", productController.eliminar)
+router.post("/delete/:id", productController.eliminar)
 module.exports = router;

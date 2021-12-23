@@ -25,7 +25,7 @@ const productController = {
             precio:req.body.precio,
             descripcion:req.body.descripcion,
             estado:req.body.estado,
-            img:req.body.img
+            img:req.file.filename
 
         }
         productModel.create(newProduct)
@@ -63,7 +63,7 @@ const productController = {
 
     },
     eliminar: function(req,res){
-        productModel.delate(res.params.id);
+        productModel.delete(req.params.id);
         res.redirect("/");
     }
 }
